@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FestiveFlavours - Countries- Spain - Roscon De Reyes</title>
+
+    <!--Linking styling and functions to page-->
+
+    <link rel = "stylesheet" type = "text/css" href = "../Css/style.css"/>
+    <script src="../Js/bar.js"></script>
+
+</head>
+
+<body>
+
+    <!--Creating the navigation bar at the top of the page-->
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">FestiveFlavours</a></li>
+            <li class="hideOnMobile">
+                <div class="dropdown">
+                    <button class="dropbtn">Countries</button>
+                    <div class="dropdown-content">
+                        <a href="Brazil.html"><button class="dropbtn-inner-dessert-country">Brazil</button></a>
+                        <a href="Spain.html"><button class="dropbtn-inner-dessert-country">Spain</button></a>
+                        <a href="India.html"><button class="dropbtn-inner-dessert-country">India</button></a>
+                    </div>
+                </div>
+            </li>
+            <li class="hideOnMobile">
+                <div class="dropdown">
+                    <button class="dropbtn">Categories</button>
+                    <div class="dropdown-content">
+                        <button class="dropbtn-inner-dessert">Breakfast</button>
+                             <div class="dropdown-content">
+                                <a href="RudolphPancakes.html">Rudolph Pancakes</a>
+                            </div>
+                        <button class="dropbtn-inner-dessert">Dinner</button>
+                             <div class="dropdown-content">
+                                  <a href="TurkeyCrown.html">Easy Turkey Crown</a>
+                             </div>
+                        <button class="dropbtn-inner-dessert">Dessert</button>
+                             <div class="dropdown-content">
+                                  <a href="GingerBreadMan.html">Gingerbread Man</a>
+                                  <a href="CupChristmasPudding.html">Cup Christmas Pudding</a>
+                             </div>
+                    </div>
+                </div>
+            </li>
+            <li class="hideOnMobile"><a href="About.html">About</a></li>
+            <li class="hideOnMobile"><a href="recipes.html">Recipes</a></li>
+            <li class="hideOnMobile"><a href="Contact.html">Contact us</a></li>
+            <li class="hideOnMobile"><a href="../CookingQuiz/Game.html">Cooking Quiz</a></li>
+            <li class="hideOnMobile"><a href="../Protectthepresents/protectThePresents.html">Protect the presents</a></li>
+            <li class="hideOnMobile"><a href="ChristmasDiff.html">Meaning</a></li>
+            <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+
+     <!--Creating a sidebar for when the screen gets too small for a nav bar-->
+
+    <nav>
+        <ul class="sidebar">
+            <li onclick = hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg></a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="Contact.html">Contact us</a></li>
+            <li><a href="../CookingQuiz/Game.html">Cooking Quiz</a></li>
+            <li><a href="../Protectthepresents/protectThePresents.html">Protect the presents</a></li>
+            <li><a href="ChristmasDiff.html">Meaning</a></li>
+        </ul>
+    </nav>
+
+    <!--Listing out all of the ingredients-->
+
+<div class="wrapper-ingredients">
+    <div>
+        <h1 class="ingredients-header">Ingredients</h1>
+        <hr>
+        <h2>To make Roscon De Reyes</h2>
+        <ul class="text-box-list">
+            <li>650 g strong flour </li>
+            <hr>
+            <li>250 ml  whole milk </li>
+            <hr>
+            <li>25 g fresh yeast</li>
+            <hr>
+            <li>120 g white sugar</li>
+            <hr>
+            <li>120 g butter</li>
+            <hr>
+            <li>2 eggs and the yolk of another </li>
+            <hr>
+            <li>10 g salt</li>
+            <hr>
+            <li>2 tablespoons orange blossom water</li>
+            <hr>
+            <li>The zest of 2 lemons</li>
+            <hr>
+            <li>The zest of one orange</li>
+            <hr>
+        </ul>
+
+        <h2>To design Roscon De Reyes</h2>
+        <ul class="text-box-list">
+            <li>An orange</li>
+            <hr>
+            <li>Glazed fruits </li>
+            <hr>
+            <li>1 beaten egg</li>
+            <hr>
+            <li>Pearl sugar</li>
+            <hr>
+            <li>Flaked almonds</li>
+            <hr>
+            <li>Your favourite ingredient for the filling: cream, truffle, confectioner's custard, angel hair (pumpkin jam), sweet potato, chocolate. </li>
+            <hr>
+            <li>The fava bean</li>
+            <hr>
+        </ul>
+</div>
+
+    <!--Writing down steps for how to make the recipe-->
+
+        <div class="text-box-ingredients">
+            <h1 class="header-ingredients">Roscon De Reyes</h1>
+            <img src="../Assets/RosconDeReyes.png"></a>
+            <br>
+            <h2>Step 1:</h2 > 
+            <p>Heat the milk until it is lukewarm.</p>
+            <br>
+            <h2>Step 2:</h2 > 
+            <p>Mix 250ml of milk with 3 tablespoons of flour and shredded yeast. Mix it thoroughly until the yeast is fully dissolved. Put the mixture to one side and leave it to ferment for 20 minutes (the warmer the ambient temperature, the quicker it will ferment).</p>
+            <br>
+            <h2>Step 3:</h2 > 
+            <p>In another bowl, add the rest of the dry ingredients: flour, sugar, salt and zest. Finally, add the milk, eggs, already fermented mixture, orange blossom water and melted butter. Mix until everything is well incorporated.</p>
+            <br>
+            <h2>Step 4:</h2>
+            <p>Flour a smooth surface and knead for a few minutes (from the outside inwards). Shape the dough into a ball and leave it to one side in a bowl covered with a cloth for a few hours or until it doubles in size (the warmer the ambient temperature, the quicker it will grow).</p>
+            <br>
+            <h2>Step 5:</h2>
+            <p>Once the dough has doubled in size, flour the same surface and knead it again. Shape your Three Kings’ cake (bear in mind that the dough will grow and the hole in the middle will become smaller).</p>
+            <br>
+            <h2>Step 6:</h2>
+            <p>Leave the dough to rest for an hour covered with clingfilm. Meanwhile, you can preheat the oven to 180 °C.</p>
+            <br>
+            <h2>Step 7:</h2>
+            <p>Brush your cake with the beaten egg and decorated it to taste.</p>
+            <br>
+            <h2>Step 8:</h2>
+            <p>Bake for 20 minutes or until you see it has turned a golden colour.</p>
+            <br>
+            <h2>Step 9:</h2>
+            <p>Remove the cake from the oven and leave it to cool for a few hours before cutting it in half to add your favourite filling and, of course, the bean. </p>
+            <br>
+            <h2>Step 10:</h2>
+            <p>Serve it with your favourite nougats and chocolates and enjoy!</p>
+            <br>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footerContainer">
+            <div class="footerNav">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="About.html">About us</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="Contact.html">Contact us</a></li>
+                    <li><a href=".../CookingQuiz/Game.html">Cooking Quiz</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+
+</html>

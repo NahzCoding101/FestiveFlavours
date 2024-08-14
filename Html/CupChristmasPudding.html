@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Recipe - Cup Christmas Pudding</title>
+
+    <!--Linking styling and functions to page-->
+
+    <link rel = "stylesheet" type = "text/css" href = "../Css/style.css"/>
+    <script src="../Js/bar.js"></script>
+
+</head>
+
+<body>
+
+    <!--Creating the navigation bar at the top of the page-->
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">FestiveFlavours</a></li>
+            <li class="hideOnMobile">
+                <div class="dropdown">
+                    <button class="dropbtn">Countries</button>
+                    <div class="dropdown-content">
+                        <a href="Brazil.html"><button class="dropbtn-inner-dessert-country">Brazil</button></a>
+                        <a href="Spain.html"><button class="dropbtn-inner-dessert-country">Spain</button></a>
+                        <a href="India.html"><button class="dropbtn-inner-dessert-country">India</button></a>
+                    </div>
+                </div>
+            </li>
+            <li class="hideOnMobile">
+                <div class="dropdown">
+                    <button class="dropbtn">Categories</button>
+                    <div class="dropdown-content">
+                        <button class="dropbtn-inner-dessert">Breakfast</button>
+                             <div class="dropdown-content">
+                                <a href="RudolphPancakes.html">Rudolph Pancakes</a>
+                            </div>
+                        <button class="dropbtn-inner-dessert">Dinner</button>
+                             <div class="dropdown-content">
+                                  <a href="TurkeyCrown.html">Easy Turkey Crown</a>
+                             </div>
+                        <button class="dropbtn-inner-dessert">Dessert</button>
+                             <div class="dropdown-content">
+                                  <a href="GingerBreadMan.html">Gingerbread Man</a>
+                                  <a href="CupChristmasPudding.html">Cup Christmas Pudding</a>
+                             </div>
+                    </div>
+                </div>
+            </li>
+            <li class="hideOnMobile"><a href="About.html">About</a></li>
+            <li class="hideOnMobile"><a href="recipes.html">Recipes</a></li>
+            <li class="hideOnMobile"><a href="Contact.html">Contact us</a></li>
+            <li class="hideOnMobile"><a href="../CookingQuiz/Game.html">Cooking Quiz</a></li>
+            <li class="hideOnMobile"><a href="../Protectthepresents/protectThePresents.html">Protect the presents</a></li>
+            <li class="hideOnMobile"><a href="ChristmasDiff.html">Meaning</a></li>
+            <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+
+     <!--Creating a sidebar for when the screen gets too small for a nav bar-->
+
+    <nav>
+        <ul class="sidebar">
+            <li onclick = hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg></a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="Contact.html">Contact us</a></li>
+            <li><a href="../CookingQuiz/Game.html">Cooking Quiz</a></li>
+            <li><a href="../Protectthepresents/protectThePresents.html">Protect the presents</a></li>
+            <li><a href="ChristmasDiff.html">Meaning</a></li>
+        </ul>
+    </nav>
+
+    <!--Listing out all of the ingredients-->
+
+<div class="wrapper-ingredients">
+    <div>
+        <h1 class="ingredients-header">Ingredients</h1>
+        <ul class="text-box-list">
+            <li>1 cup raisins</li>
+            <hr>
+            <li>1 cup sultans</li>
+            <hr>
+            <li>1 cup self-rising flour</li>
+            <hr>
+            <li>1 cup finely grated butter(115g)</li>
+            <hr>
+            <li>1 cup fresh brown breadcrumbs(about 4 slice of thick bread)</li>
+            <hr>
+            <li>1 cup light muscovado sugar</li>
+            <hr>
+            <li>1 cup mixed nuts</li>
+            <hr>
+            <li>1tsp ground cinnamon</li>
+            <hr>
+            <li>1tsp ground mixed spice</li>
+            <hr>
+            <li>1 cup milk</li>
+            <hr>
+            <li>1 large egg</li>
+            <hr>
+            <li>butter for greasing butterscotch sauce</li>
+            <hr>
+            <li>85g butter</li>
+            <hr>
+            <li>100g light muscovado sugar</li>
+            <hr>
+            <li>200ml double cream</li>
+            <hr>
+            <li>1tsp vanilla extract</li>
+            <hr>
+        </ul>
+</div>
+
+    <!--Writing down steps for how to make the recipe-->
+
+        <div class="text-box-ingredients">
+            <h1 class="header-ingredients">Cup Christmas Pudding</h1>
+            <img src="../Assets/Pudding.jpg"></a>
+            <br>
+            <h2>Step 1:</h2 > 
+            <p>For the pudding, empty the first six cups and the nuts, if using, into a mixing bowl with the spices, then stir in the milk and egg. Once well combined, tip into a buttered 1.5 litre pudding bowl.</p>
+            <br>
+            <h2>Step 2:</h2 > 
+            <p>Cover with a double layer of buttered foil, making a pleat in the centre to allow the pudding to rise. Tie the foil securely with string, then place in a steamer or large pan containing enough gently simmering water to come halfway up the sides of the bowl. Steam, covered with a lid, for 2½ hours. Check the water level during cooking, topping up if necessary. If you are preparing this pudding ahead, remove the foil, let it cool slightly, then wrap in cling film and then fresh foil. If you are serving it immediately, unwrap and invert onto a deep plate.</p>
+            <br>
+            <h2>Step 3:</h2 > 
+            <p>For the sauce, put everything in a pan and bring slowly to the boil, stirring. Allow to bubble away for 2-3 minutes, still stirring, until the sugar has dissolved and the sauce is pale caramel in colour and slightly thickened. Remove from the heat. Pour the sauce over the pudding and decorate with the whole mixed nuts.</p>
+            <br>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="footerContainer">
+            <div class="footerNav">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="About.html">About us</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="Contact.html">Contact us</a></li>
+                    <li><a href="../CookingQuiz/Game.html">Cooking Quiz</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+
+</html>

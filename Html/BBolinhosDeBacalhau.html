@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FestiveFlavours - Countries- Brazil - Bolinhos De Bacalhau</title>
+
+    <!--Linking styling and functions to page-->
+
+    <link rel = "stylesheet" type = "text/css" href = "../Css/style.css"/>
+    <script src="../Js/bar.js"></script>
+
+</head>
+
+<body>
+
+    <!--Creating the navigation bar at the top of the page-->
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">FestiveFlavours</a></li>
+            <li class="hideOnMobile">
+                <div class="dropdown">
+                    <button class="dropbtn">Countries</button>
+                    <div class="dropdown-content">
+                        <a href="Brazil.html"><button class="dropbtn-inner-dessert-country">Brazil</button></a>
+                        <a href="Spain.html"><button class="dropbtn-inner-dessert-country">Spain</button></a>
+                        <a href="India.html"><button class="dropbtn-inner-dessert-country">India</button></a>
+                    </div>
+                </div>
+            </li>
+            <li class="hideOnMobile">
+                <div class="dropdown">
+                    <button class="dropbtn">Categories</button>
+                    <div class="dropdown-content">
+                        <button class="dropbtn-inner-dessert">Breakfast</button>
+                             <div class="dropdown-content">
+                                <a href="RudolphPancakes.html">Rudolph Pancakes</a>
+                            </div>
+                        <button class="dropbtn-inner-dessert">Dinner</button>
+                             <div class="dropdown-content">
+                                  <a href="TurkeyCrown.html">Easy Turkey Crown</a>
+                             </div>
+                        <button class="dropbtn-inner-dessert">Dessert</button>
+                             <div class="dropdown-content">
+                                  <a href="GingerBreadMan.html">Gingerbread Man</a>
+                                  <a href="CupChristmasPudding.html">Cup Christmas Pudding</a>
+                             </div>
+                    </div>
+                </div>
+            </li>
+            <li class="hideOnMobile"><a href="About.html">About</a></li>
+            <li class="hideOnMobile"><a href="recipes.html">Recipes</a></li>
+            <li class="hideOnMobile"><a href="Contact.html">Contact us</a></li>
+            <li class="hideOnMobile"><a href="../CookingQuiz/Game.html">Cooking Quiz</a></li>
+            <li class="hideOnMobile"><a href="../Protectthepresents/protectThePresents.html">Protect the presents</a></li>
+            <li class="hideOnMobile"><a href="ChristmasDiff.html">Meaning</a></li>
+            <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+
+     <!--Creating a sidebar for when the screen gets too small for a nav bar-->
+
+    <nav>
+        <ul class="sidebar">
+            <li onclick = hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg></a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="Contact.html">Contact us</a></li>
+            <li><a href="../CookingQuiz/Game.html">Cooking Quiz</a></li>
+            <li><a href="../Protectthepresents/protectThePresents.html">Protect the presents</a></li>
+            <li><a href="ChristmasDiff.html">Meaning</a></li>
+        </ul>
+    </nav>
+
+    <!--Listing out all of the ingredients-->
+
+<div class="wrapper-ingredients">
+    <div>
+        <h1 class="ingredients-header">Ingredients</h1>
+        <ul class="text-box-list">
+            <li>1 pound salt cod</li>
+            <hr>
+            <li>2 medium baking potatoes, peeled and cut into chunks</li>
+            <hr>
+            <li>1 tablespoon minced onion</li>
+            <hr>
+            <li>1 garlic clove, mashed to a paste with a pinch of salt</li>
+            <hr>
+            <li>2 tablespoons finely chopped cilantro</li>
+            <hr>
+            <li>2 large eggs, separated</li>
+            <hr>
+            <li>Kosher salt </li>
+            <hr>
+            <li>Freshly ground black pepper</li>
+            <hr>
+            <li>1 tablespoon all-purpose flour</li>
+            <hr>
+            <li>1 cup fine fresh bread crumbs</li>
+            <hr>
+            <li>About 4 cups vegetable oil, for frying</li>
+            <hr>
+        </ul>
+</div>
+
+    <!--Writing down steps for how to make the recipe-->
+
+        <div class="text-box-ingredients">
+            <h1 class="header-ingredients">Bolinhos De Bacalhau</h1>
+            <img src="../Assets/BolinhosDeBacalhau.png"></a>
+            <br>
+            <h2>Step 1:</h2 > 
+            <p>In a large bowl, cover the salt cod with cold water, refrigerate and let soak for 2 days, changing the water every 8 hours. Drain.</p>
+            <br>
+            <h2>Step 2:</h2 > 
+            <p>In a medium pot, cover the salt cod with water and boil for 15 minutes. Remove the fish from the pot, reserving the cooking liquid. Let the salt cod cool till easy to handle, then use your fingers to finely shred it into a large bowl.</p>
+            <br>
+            <h2>Step 3:</h2 > 
+            <p>Meanwhile, boil the potatoes in the salt cod cooking water until tender, about 20 minutes. Let the potatoes cool then pass them through a potato ricer into the bowl with the salt cod. Stir in the onion, garlic, cilantro and egg yolks. Season to taste with salt and pepper, then sprinkle the flour over the salt cod mixture and fold it in. Beat the egg whites to soft peaks then fold the egg whites into the salt cod. Form the batter into 10 balls, about 1/4 cup each, then roll them in the bread crumbs.</p>
+            <br>
+            <h2>Step 4:</h2>
+            <p>Line a baking sheet with paper towels. In a medium pot, heat the oil to 350°. Fry the cod balls in batches until golden brown, about 6 minutes per batch. Drain the cod balls on the paper towel–lined baking sheet, then serve.</p>
+            <br>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footerContainer">
+            <div class="footerNav">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="About.html">About us</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="Contact.html">Contact us</a></li>
+                    <li><a href="../CookingQuiz/Game.html">Cooking Quiz</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+
+</html>

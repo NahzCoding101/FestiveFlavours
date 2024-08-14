@@ -1,0 +1,353 @@
+/*applies this styling to all elements on all the pages*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.dif{
+    color: white;
+}
+
+.difp{
+    color: white;
+    font-size: large;
+}
+
+.difhead{
+    text-decoration: underline;
+    font-family: 'Brush Script MT';
+    color: white;
+    font-size: 50px;
+}
+
+
+/*applies this styling to all button elements on all the pages*/
+
+button{
+    background-color: #5bd183;
+    border-radius: 20px;
+    border-color: black;
+    color: white;
+    font-size: 22px;
+    padding: 10px 10px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+}
+
+/*applying styling to the button when its hovered over on all the pages*/
+
+button:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
+
+/*applies this styling to all img elements on all the pages*/
+
+img{
+    width: 320px;
+    height: 300px;
+    float: left;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+/*applies this styling to the body of the page in all the pages*/
+
+body{
+    min-height: 100vh;
+    background-image: url(../Assets/diffbackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*applies this styling to all footer elements on the page*/
+
+footer{
+    background-color: #111;
+    height: fit-content;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/*applies this styling to all elements using the footerContainer class on the page*/
+
+.footerContainer{
+    width: 100%;
+    height: fit-content;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color:  rgb(0, 157, 255);
+    color: white;
+    text-align: center;
+}
+
+/*applies this styling to all elements using the footerNav class on the page*/
+
+.footerNav{
+    margin: 30px 0;
+    height: fit-content;
+}
+
+/*applies this styling to all the ul elements inside the footerNav class on the page*/
+
+.footerNav ul{
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    list-style-type: disc;
+}
+
+/*applies this styling to all the ul,li and a elements inside the footerNav class on the page*/
+
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+    height: fit-content;
+}
+
+/*applies this styling to all the ul,li and a elements inside the footerNav class on the page when its hovered over*/
+
+.footerNav ul li a:hover{
+    opacity: 1;
+    height: fit-content;
+}
+
+/*applies this styling to all elements using the footerBottom class on the page*/
+
+.footerBottom{
+    background-color:  rgb(0, 157, 255);
+    padding: 20px;
+    text-align: center;
+    height: fit-content;
+}
+
+/*applies this styling to all the p elements inside the footerBottom class on the page*/
+
+.footerBottom p{
+    color: white;
+    height: fit-content;
+}
+
+/*applies this styling to all elements using the designer class on the page*/
+
+.designer{
+   opacity: 0.7; 
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   font-weight: 400;
+   margin: 0 5px;
+   height: auto;
+}
+
+/*applies this styling to all  nav elements on the page*/
+
+nav{
+    background-color: rgb(0, 157, 255);
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+    margin-top: 10px;
+}
+
+/*applies this styling to all the ul elements in the nav element on the page*/
+
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/*applies this styling to all the li elements in the nav element on the page*/
+
+nav li{
+    height: 50px;
+}
+
+/*applies this styling to all the a elements in the nav element on the page*/
+
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin: 0 10px;
+    
+}
+
+/*applies this styling to all the a elements in the nav element on the page when its hovered over*/
+
+nav a:hover{
+    background-color: rgba(0, 114, 185, 0.541);
+}
+
+/*applies this styling to the first li element in in the nav element on the page*/
+
+nav li:first-child{
+    margin-right: auto;
+}
+
+/*applies this styling to all elements using the sidebar class on the page*/
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgb(0, 157, 255);
+    color: white;
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+/*applies this styling to all the li elements inside the sidebar class on the page*/
+
+.sidebar li{
+    width: 100%;
+}
+
+/*applies this styling to all the a elements inside the sidebar class on the page*/
+
+.sidebar a{
+    width: 100%;
+}
+
+/*applies this styling to all elements using the menu-button class on the page*/
+
+.menu-button{
+    display: none
+}
+
+/*changing display to none for hideOnMobile class and changing display to block for menu-button class when the max-width of the screen is 800px*/
+
+@media(max-width: 800px){
+    .hideOnMobile{
+        display: none;
+    }
+
+    .menu-button{
+        display: block;
+    }
+
+}
+
+/*changing the sidebar class width to 100% when the max-width of the screen is 400px*/
+
+@media(max-width: 400px){
+    .sidebar{
+        width: 100%;
+    }
+}
+
+/*changing the footerNav class ul element flex direction to column and footerNav class ul li element width to 100%, text-align to center and margin to 10px when the max-width of the screen is 700px*/
+
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    }
+    .footerNav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
+
+/*applies this styling to all elements using the dropbtn class on the page*/
+
+.dropbtn {
+    background-color: rgb(0, 157, 255);
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+    border: none; 
+    cursor: pointer; 
+    justify-content: center;
+    align-items: center;
+}
+
+/*applies this styling to all elements using the dropbtn-inner class on the page*/
+
+.dropbtn-inner {
+    background-color: rgb(0, 157, 255);
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    border: none; 
+    cursor: pointer; 
+    justify-content: center;
+    align-items: center;
+}
+
+/*applies this styling to all elements using the dropbtn-inner-dessert on the page*/
+
+.dropbtn-inner-dessert {
+    background-color: rgb(0, 157, 255);
+    color: white;
+    font-size: 16px;
+    margin-top: 30px;
+    border: none; 
+    cursor: pointer; 
+    justify-content: center;
+    align-items: center;
+}
+
+.dropbtn-inner-dessert-country {
+    background-color: rgb(0, 157, 255);
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+    border: none; 
+    cursor: pointer; 
+    justify-content: center;
+    align-items: center;
+}
+  
+
+/*applies this styling to all elements using the dropdown class on the page*/
+
+.dropdown {
+    position: relative; 
+    display: inline-block; 
+}
+  
+/*applies this styling to all elements using the dropdown-content class on the page*/
+ 
+.dropdown-content {
+    display: none; 
+    position: absolute; 
+    background-color: rgb(0, 157, 255);
+    min-width: 200px; 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+    z-index: 1; 
+}
+  
+/*applies this styling to the dropdown or dropdown-content class on the page when its hovered over*/
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}

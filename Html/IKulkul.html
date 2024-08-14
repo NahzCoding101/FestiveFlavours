@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FestiveFlavours - Countries- India - Kulkul</title>
+
+    <!--Linking styling and functions to page-->
+
+    <link rel = "stylesheet" type = "text/css" href = "../Css/style.css"/>
+    <script src="../Js/bar.js"></script>
+
+</head>
+
+<body>
+
+    <!--Creating the navigation bar at the top of the page-->
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">FestiveFlavours</a></li>
+            <li class="hideOnMobile">
+                <div class="dropdown">
+                    <button class="dropbtn">Countries</button>
+                    <div class="dropdown-content">
+                        <a href="Brazil.html"><button class="dropbtn-inner-dessert-country">Brazil</button></a>
+                        <a href="Spain.html"><button class="dropbtn-inner-dessert-country">Spain</button></a>
+                        <a href="India.html"><button class="dropbtn-inner-dessert-country">India</button></a>
+                    </div>
+                </div>
+            </li>
+            <li class="hideOnMobile">
+                <div class="dropdown">
+                    <button class="dropbtn">Categories</button>
+                    <div class="dropdown-content">
+                        <button class="dropbtn-inner-dessert">Breakfast</button>
+                             <div class="dropdown-content">
+                                <a href="RudolphPancakes.html">Rudolph Pancakes</a>
+                            </div>
+                        <button class="dropbtn-inner-dessert">Dinner</button>
+                             <div class="dropdown-content">
+                                  <a href="TurkeyCrown.html">Easy Turkey Crown</a>
+                             </div>
+                        <button class="dropbtn-inner-dessert">Dessert</button>
+                             <div class="dropdown-content">
+                                  <a href="GingerBreadMan.html">Gingerbread Man</a>
+                                  <a href="CupChristmasPudding.html">Cup Christmas Pudding</a>
+                             </div>
+                    </div>
+                </div>
+            </li>
+            <li class="hideOnMobile"><a href="About.html">About</a></li>
+            <li class="hideOnMobile"><a href="recipes.html">Recipes</a></li>
+            <li class="hideOnMobile"><a href="Contact.html">Contact us</a></li>
+            <li class="hideOnMobile"><a href="../CookingQuiz/Game.html">Cooking Quiz</a></li>
+            <li class="hideOnMobile"><a href="../Protectthepresents/protectThePresents.html">Protect the presents</a></li>
+            <li class="hideOnMobile"><a href="ChristmasDiff.html">Meaning</a></li>
+            <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+
+     <!--Creating a sidebar for when the screen gets too small for a nav bar-->
+
+    <nav>
+        <ul class="sidebar">
+            <li onclick = hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg></a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="Contact.html">Contact us</a></li>
+            <li><a href="../CookingQuiz/Game.html">Cooking Quiz</a></li>
+            <li><a href="../Protectthepresents/protectThePresents.html">Protect the presents</a></li>
+            <li><a href="ChristmasDiff.html">Meaning</a></li>
+        </ul>
+    </nav>
+
+    <!--Listing out all of the ingredients-->
+
+<div class="wrapper-ingredients">
+    <div>
+        <h1 class="ingredients-header">Ingredients</h1>
+        <ul class="text-box-list">
+            <li>4 cups (495 grams) all-purpose flour</li>
+            <hr>
+            <li>1/2 teaspoon baking powder</li>
+            <hr>
+            <li>1 tablespoon cold unsalted butter, cubed</li>
+            <hr>
+            <li>2 large eggs</li>
+            <hr>
+            <li>1/4 cup confectioners' sugar</li>
+            <hr>
+            <li>1 cup coconut milk</li>
+            <hr>
+            <li>Neutral oil, such as canola or vegetable, for frying</li>
+            <hr>
+            <li>1 cup granulated sugar</li>
+            <hr>
+            <li>3 to 4 tablespoons water, as needed</li>
+            <hr>
+            <li>1/4 teaspoon fine salt</li>
+            <hr>
+        </ul>
+</div>
+
+    <!--Writing down steps for how to make the recipe-->
+
+        <div class="text-box-ingredients">
+            <h1 class="header-ingredients">Kulkuls</h1>
+            <img src="../Assets/Kulkul.png"></a>
+            <br>
+            <h2>Step 1:</h2 > 
+            <p>In a large bowl, mix the flour and baking powder until well combined.</p>
+            <br>
+            <h2>Step 2:</h2 > 
+            <p>Add butter a little at a time, rubbing it into the flour until butter is pea-sized.</p>
+            <br>
+            <h2>Step 3:</h2 > 
+            <p>In a small bowl, beat the eggs. Add the eggs to the flour-butter mixture.</p>
+            <br>
+            <h2>Step 4:</h2>
+            <p>Add confectioners' sugar and coconut milk and mix into a soft dough.</p>
+            <br>
+            <h2>Step 5:</h2>
+            <p>Form dough into small sized balls, about 1-inch in diameter.</p>
+            <br>
+            <h2>Step 6:</h2>
+            <p>Grease the back of a fork with some oil. Flatten a ball of dough and press it onto back of the fork forming a rectangle the length of the fork tines.</p>
+            <br>
+            <h2>Step 7:</h2>
+            <p>Starting at bottom end of the fork, roll the dough up the tines and off fork and into a tight curl. The end result will be a tube-like curl with ridges from fork. Place the curl on a plate and work remaining dough balls similarly.</p>
+            <br>
+            <h2>Step 8:</h2>
+            <p>Heat about 1-inch of oil in a deep, straight-sided medium skillet or heavy-duty saucepan on medium heat until it reaches 350 F.</p>
+            <br>
+            <h2>Step 9:</h2>
+            <p>Fry the kulkuls in batches to not crowd the pan (about 6 or 7), making sure to adjust the heat as needed to maintain the temperature, turning them often until light golden brown color, 2 1/2 to 3 1/2 minutes total. Transfer to a paper-towel-lined baking sheet with a slotted spoon as they become done.</p>
+            <br>
+            <h2>Step 10:</h2>
+            <p>Put granulated sugar and water in a medium saucepan on medium heat. Cook until sugar is dissolved and the mixture is syrupy, 4 to 6 minutes.</p>
+            <br>
+            <h2>Step 11:</h2>
+            <p>Add cooled kulkuls to sugar syrup and coat well.</p>
+            <br>
+            <h2>Step 12:</h2>
+            <p>Remove from the syrup with a slotted spoon. Let the curls sit on a serving platter until the sugar dries and forms a coating on the kulkuls.</p>
+            <br>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footerContainer">
+            <div class="footerNav">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="About.html">About us</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="Contact.html">Contact us</a></li>
+                    <li><a href="../CookingQuiz/Game.html">Cooking Quiz</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+
+</html>
